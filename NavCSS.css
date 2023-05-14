@@ -1,0 +1,116 @@
+	body {
+	color: white;
+	background-color:#361f55;
+	font-family: calibri;
+	background-image: url("bg1.png");
+	abackground-size: cover;	
+}
+	.divBg {
+		background-image: url("bg1.png");
+		background-size: cover;	
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border-radius: 5px;
+		margin: 0px;
+		padding: 0px;
+}
+.Ribbon {
+	padding: 1px;
+	background-color: hsla(0, 50%, 0%, .5);
+	border-radius: 5px 5px 0px 0px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+ul {
+	list-style-type: none;
+}
+
+li {
+	
+	border-radius: 5px;
+}
+.Ribbon a {
+	text-decoration: none; 
+	color: white;
+	background-color: hsla(0, 50%, 0%, .5);
+	padding: 5px;
+	border-radius: 5px;
+}
+.Ribbon li {
+	display: inline ;
+border-radius: 5px;
+}
+
+.menu {
+	position: relative;
+	display: inline;
+
+ padding: 5px;
+ border-radius: 5px;
+}
+.ddb {
+	position: relative;
+	display: inline;
+	background-color: hsla(0, 50%, 0%, .5);
+ padding: 5px;
+ border-radius: 5px;
+}
+
+.ddc
+{
+display: none;
+position: absolute;
+margin: -1px 0px 0px 5px;
+max-width: 200px;
+z-index: 1;
+ border-radius: 5px;
+}
+
+.menu .ddb:hover .ddc
+{
+	display: block; 
+	 border-radius: 5px;	
+
+}
+
+.menu .ddb .ddc a {
+	text-decoration: none; 
+	color: white;
+	background-color: hsla(0, 50%, 0%, .5);
+	padding: 5px;
+}
+
+.menuvert {
+	min-width: 150px;
+	display: inline-block;
+	background-color: whitesmoke;
+	padding: 0px;
+	margin: 0px;
+	align-items: center;
+	background-color: hsla(0, 50%, 0%, .5);
+
+
+}
+.menuvert li   {
+	list-style-type: none;
+	display: block;
+	padding: 5px;
+	margin: 5px;
+	background-color: hsla(0, 50%, 0%, .5);
+
+
+}
+
+li a:hover {
+	font-weight:bold;
+
+	padding: 5px;
+
+	border-radius: 10px;
+}
